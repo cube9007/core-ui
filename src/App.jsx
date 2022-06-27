@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Route, Routes, Link } from "react-router-dom";
+import { HashRouter, Route, Routes, Link } from "react-router-dom";
 
 import HOME from "./page/HOME";
 
@@ -15,7 +15,7 @@ import './assets/scss/style.scss';
 function App() {
   return (
     <div>
-      <BrowserRouter basename="/">
+      <HashRouter basename="/">
         <Routes>
           <Route path="/" element={<HOME />} />
           
@@ -26,7 +26,7 @@ function App() {
           <Route path="/page/page/LoginPage" element={<LoginPage/>} />
           <Route path="/page/page/EquipmentData" element={<EquipmentData/>} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </div>
   );
 }
