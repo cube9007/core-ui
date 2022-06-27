@@ -15,7 +15,7 @@ import './assets/scss/style.scss';
 function App() {
   return (
     <div>
-      <BrowserRouter>
+      <BrowserRouter basename="/">
         <Routes>
           <Route path="/" element={<HOME />} />
           
