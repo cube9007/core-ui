@@ -6,9 +6,9 @@ import { ThemeProvider } from "@mui/material/styles";
 import { DefaultTheme } from "./ThemeConfig";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
-  <ThemeProvider theme={DefaultTheme}>
-    <React.StrictMode>
+  <React.StrictMode>
+    <ThemeProvider theme={DefaultTheme}>
       <App />
-    </React.StrictMode>
-  </ThemeProvider>
+    </ThemeProvider>
+  </React.StrictMode>
 );
