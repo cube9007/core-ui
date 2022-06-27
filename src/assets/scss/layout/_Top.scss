@@ -1,0 +1,77 @@
+.top {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+    padding: 0 40px 0 30px;
+}
+
+.top-icon {
+    &.MuiButton-root {
+        width: 40px;
+        min-width: 40px;
+        height: 40px;
+        border-radius: 100px;
+    }
+    &.MuiButton-text {
+        color: $Text_60p;
+    }
+}
+
+.top-menuItem {
+    padding: 0 10px;
+    height: 300px;
+    overflow: auto;
+    &> *  {
+        margin: 5px 0;
+    }
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $BG_20p;
+        border: 4px solid $BG_Original;
+        border-radius: 100px;
+    }
+}
+
+.person-button {
+    &.MuiButton-root {
+        width: 150px;
+        min-width: 150px;
+        height: 50px;
+        padding: 0 0 0 10px;
+        margin: 0;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    &.MuiButton-text {
+        color: $Text_60p;
+    }
+}
+.top-notificationItem {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.top-notification {
+    height: 400px;
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $BG_20p;
+        border: 4px solid $BG_Original;
+        border-radius: 100px;
+    }
+}
+
+.notification-item {
+    height: 50px;
+    width: 350px;
+}

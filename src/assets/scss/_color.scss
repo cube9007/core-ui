@@ -1,0 +1,95 @@
+//Light Mode
+$primary: #162DFB;
+$primary: rgb(22,45,251);
+$primary_linear: linear-gradient(135deg, rgb(122,135,255), rgb(22,45,251));
+$primary_40p: rgb($primary,0.4);
+
+$BG_Original: rgb(255,255,255);
+$BG_Painted: rgb(0,0,0);
+$BG_60p: rgb($BG_Painted,0.6);
+$BG_40p: rgb($BG_Painted,0.4);
+$BG_20p: rgb($BG_Painted,0.2);
+$BG_5p: rgb($BG_Painted,0.05);
+$BG_999: #999;
+$BG_Layout: #FAFAFA;
+
+$Outline_Painted: rgb(0,0,0);
+$Outline_20p: rgb($Outline_Painted,0.2);
+$Outline_12p: rgb($Outline_Painted,0.12);
+$Outline_5p: rgb($Outline_Painted,0.05);
+
+$Text_Original: rgb(255,255,255);
+$Text_Painted: rgb(0,0,0);
+$Text_87p: rgb($Text_Painted,0.87);
+$Text_60p: rgb($Text_Painted,0.6);
+$Text_40p: rgb($Text_Painted,0.4);
+$Text_33p: rgb($Text_Painted,0.33);
+
+//etc
+$codemirror: #2c313a;
+
+
+//color
+.primary-font {
+    color: $primary;
+}
+
+    //BG
+.bg-original {
+    background-color: $BG_Original;
+}
+.bg-painted {
+    background-color: $BG_Painted;
+}
+.bg-60p {
+    background-color: $BG_60p;
+}
+.bg-40p {
+    background-color: $BG_40p;
+}
+.bg-20p {
+    background-color: $BG_20p;
+}
+.bg-5p {
+    background-color: $BG_5p;
+}
+.bg-999 {
+    background-color: $BG_999;
+}
+.bg-layout {
+    background-color: $BG_Layout;
+}
+
+    //Outlined
+.outlined-painted {
+    border: 1px solid $Outline_Painted;
+}
+.outlined-20p {
+    border: 1px solid $Outline_20p;
+}
+.outlined-12p {
+    border: 1px solid $Outline_12p;
+}
+.outlined-5p {
+    border: 1px solid $Outline_5p;
+}
+
+    //Text
+.text-original {
+    color: $Text_Original;
+}
+.text-painted {
+    color: $Text_Painted;
+}
+.text-87p {
+    color: $Text_87p;
+}
+.text-60p {
+    color: $Text_60p;
+}
+.text-40p {
+    color: $Text_40p;
+}
+.text-33p {
+    color: $Text_33p;
+}

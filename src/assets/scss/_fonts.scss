@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.logo {
+    font-weight: bold;
+    font-size: 26px;
+    
+}
+
+//HEAD
+.h1-70 {
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 70%;
+}
+.h2-70 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 70%;
+}
+.h2-160 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 160%;
+}
+.h3-70 {
+    font-size: 20px;
+    line-height: 70%;
+}
+.h3-160 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 160%;
+}
+
+//BODY
+.font-title {
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 70%;
+}
+.font-medium {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.font-medium-b {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 160%;
+}
+.font-small {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.font-small-b {
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 160%;
+}
+
+//COMPONENT
+.font-gnb-menu {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    overflow: hidden;
+    text-overflow: hidden;
+    white-space: nowrap;
+}
+.font-tab {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.font-pagination {
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 100%;
+}
+.font-button-large {
+    font-size: 16pt;
+    font-weight: 500;
+    line-height: 100%;
+}
+.font-button-medium {
+    font-size: 15pt;
+    font-weight: 500;
+    line-height: 100%;
+}
+.font-button-small {
+    font-size: 14pt;
+    font-weight: 500;
+    line-height: 100%;
+}
+.font-datepicker-title {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 100%;
+}
+.font-datepicker-date {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+//INPUT
+.font-input-medium {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+}
+.font-input-medium-b {
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 160%;
+}

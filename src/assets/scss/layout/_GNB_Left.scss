@@ -1,0 +1,138 @@
+.fold-button {
+    &.MuiButton-root {
+        width: 30px;
+        min-width: 30px;
+        height: 30px;
+        border-radius: 100%;
+        background-color: $BG_5p;
+    }
+    &.MuiButton-text {
+        color: $Text_60p;
+    }
+}
+
+.gnbLeft {
+    display: block;
+    position: relative;
+    visibility: visible;
+    opacity: 100%;
+    transition: 0.5s;
+    border-radius: 0px 10px 10px 0px;
+    box-shadow: 4px 0px 10px rgb(0,0,0,0.05);
+    width: 280px;
+    background-color: $BG_Original;
+    &-close {
+        position: absolute;
+        visibility: hidden;
+        transition: 0.5s;
+        opacity: 0;
+        border-radius: 0px 10px 10px 0px;
+        box-shadow: 4px 0px 10px rgb(0,0,0,0.05);
+        width: 280px;
+        background-color: $BG_Original;
+    }
+}
+
+.menuclose {
+    display: none;
+    &:checked {
+        &~.gnbLeft {
+            position: absolute;
+            width: 104px;
+            visibility: hidden;
+            opacity: 0%;
+        }
+        &~.gnbLeft-close {
+            display: block;
+            position: relative;
+            visibility: visible;
+            width: 104px;
+            opacity: 100%;
+            &>.gnb-menu-close>.menu-button-close {
+                &.MuiButton-root {
+                    width: 44px;
+                    min-width: 44px;
+                }
+            }
+        }
+    }
+}
+
+.logo-box {
+    padding: 30px 30px 10px 30px;
+    height: 30px;
+}
+
+.gnb-menu {
+    padding: 10px 30px;
+    height: calc( 100vh - 90px );
+    overflow: auto;
+    &::-webkit-scrollbar {
+        width: 12px;
+    }
+    &::-webkit-scrollbar-thumb {
+        background-color: $BG_20p;
+        border: 4px solid $BG_Original;
+        border-radius: 100px;
+    }
+    &-close {
+        padding: 10px 18px 10px 30px;
+        height: calc( 100vh - 90px );
+        flex-grow: 1;
+        overflow: auto;
+        &::-webkit-scrollbar {
+            width: 12px;
+        }
+        &::-webkit-scrollbar-thumb {
+            background-color: $BG_20p;
+            border: 4px solid $BG_Original;
+            border-radius: 100px;
+        }
+    }
+}
+
+.menu-button {
+    &-icons {
+        margin-right: 10px;
+    }
+    &.MuiButton-root {
+        display: flex;
+        justify-content: flex-start;
+        height: 50px;
+        min-height: 50px;
+        text-transform: none;
+        margin: 5px 0;
+    }
+    &.MuiButton-text {
+        color: $Text_60p;
+    }
+    &-close {
+        &.MuiButton-root {
+            display: flex;
+            justify-content: flex-start;
+            transition: 0.5s;
+            height: 50px;
+            padding: 10px;
+            width: 208px;
+            min-width: 208px;
+            text-transform: none;
+            margin: 5px 0;
+        }
+        &.MuiButton-text {
+            color: $Text_60p;
+        }
+    }
+}
+
+.gnb-divider {
+    &.MuiDivider-root {
+        margin: 5px 0;
+    }
+    &-close {
+        &.MuiDivider-root {
+            margin: 5px 0;
+            width: 44px;
+        }   
+    }
+}
+
